@@ -1,0 +1,66 @@
+body {
+    font-family: "Arvo", serif;
+}
+h2 {
+    border-bottom: 1px solid #c9c;
+}
+
+.room {
+    position: relative;
+    min-height: 210px;
+    margin: 10px;
+}
+
+.button {
+    display: block;
+    background: url(images/button-up.png) top right no-repeat;
+    width: 70px;
+    padding-top: 30px;
+    height: 50px;
+    margin: 10px;
+}
+.button:active {
+    background: url(images/button-down.png) top right no-repeat;
+}
+
+.room .group {
+    background: url(images/pattern-background.png);
+    position: absolute;
+    width: 170px;
+    height: 210px;
+}
+.room .western {
+    top: 0px;
+    left: 100px;
+}
+.room .eastern {
+    top: 0px;
+    left: 300px;
+}
+
+.room .tile {
+    display: none;
+    background: url(images/pattern-lit.png);
+    position: absolute;
+    width: 78px;
+    height: 96px;
+}
+.room .on {
+    display: block;
+}
+.room .top {
+    top: 6px;
+    left: 46px;
+}
+.room .left {
+    top: 57px;
+    left: 5px;
+}
+.room .right {
+    top: 57px;
+    left: 87px;
+}
+.room .bottom {
+    top: 109px;
+    left: 46px;
+}
